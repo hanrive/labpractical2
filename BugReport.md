@@ -2,9 +2,16 @@
 
 #Tutorials: Display a map 2D and Add a point, line, and polygon
 The main bug I ran into was displaying the topographic base layer on my map.
-![What my map currently looks like](link)
+![What my map currently looks like](/labpractical2/error_map.jpg)
 
-![What my map should have looked like](link)
+![What my map should have looked like](/labpractical2/error_map.jpg)
+
+#Method to reproduce:
+Follow these tutorials:
+- https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/
+- https://developers.arcgis.com/javascript/latest/tutorials/add-a-point-line-and-polygon/
+
+I inserted the code directly into github in a new document and pushed it from my browser directly.
 
 #Attempt to debug:
 I was informed by other students that the tutorial from 'Display a map 2D' included and error that could be fixed from code beneath the API Key on ArcGIS Developers.
@@ -22,4 +29,4 @@ esriConfig.apiKey = "<YOUR_API_KEY>";
       });
 
 I waited 10 minutes after pushing the edit to Github however I still ended with with the following errors in my source code:
-![Errors](link)
+![Errors](labpractical2/error_map.jpg)
