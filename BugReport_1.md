@@ -1,10 +1,10 @@
-##!Bug Report
+##1st Bug Report
 
 #Tutorials: Display a map 2D and Add a point, line, and polygon
 The main bug I ran into was displaying the topographic base layer on my map.
-![What my map currently looks like](/labpractical2/BugImages/error_map.jpg)
+![What my map currently looks like](BugImages/error_map.jpg)
 
-![What my map should have looked like](/labpractical2/BugImages/error_map.jpg)
+![What my map should have looked like](BugImages/tutorial_map.jpg)
 
 #Method to reproduce:
 Follow these tutorials:
@@ -29,4 +29,4 @@ esriConfig.apiKey = "<YOUR_API_KEY>";
       });
 
 I waited 10 minutes after pushing the edit to Github however I still ended with with the following errors in my source code:
-![Errors](labpractical2/BugImages/error_map.jpg)
+![Errors](BugImages/errors.jpg)
